@@ -90,17 +90,29 @@ class ClassList(models.Model):
                          (2, '网络班'),
                          )
     class_type = models.SmallIntegerField(choices=class_type_choice)
-    start_data = models.DateField(verbose_name='开班日期')
-    end_data = models.DateField(verbose_name='结束日期', blank=True, null=True)
+    start_date = models.DateField(verbose_name='开班日期')
+    end_date = models.DateField(verbose_name='结束日期', blank=True, null=True)
 
     def __str__(self):
         return '%s %s %s' %(self.branch,self.course,self.semester)
 
+    class Meta:
+        unique_together = ('branch','course','semester') #联合唯一
+
+
 
 class CourseRecord(models.Model):
-    '''课程记录表'''
-    pass
+    '''上课记录表'''
+    from_class = models.ForeignKey('ClassList',verbose_name='班级')
+    day_num = models.PositiveSmallIntegerField(verbose_name='第几节')
+    teacher = models.ForeignKey('UserProfile')
+    has_homework = models.BooleanField(default=True)
+    homeWork_title = models.CharField(max_length=128,blank=True,null=True)
+    homeWork_content = models.TextField(verbose_name='本节课程大纲')
+    date = models.DateTimeField(auto_now=True)
 
+    def __str__(self):
+        return '%s %s' %(self.from_class,self.day_num)
 
 # 报名的则为学生，没报名则为客户
 class Enrolment(models.Model):

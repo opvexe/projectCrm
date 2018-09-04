@@ -19,14 +19,23 @@ python manage.py runserver
 ### 管理数据库
 ```
 
+
+# python manage.py makemigrations   ##生成数据库表
+# python manage.py migrate
+# python manage.py createsuperuser
+# username  admin
+# password admin1234
+# python manage.py runserver 8001
+# 127.0.0.1:8001/admin
+
+django-admin.py startproject mysite #创建mysite 文件
+
 python manage.py makemigrations   ##生成数据库表
-
-之后执行 将该改动作用到数据库文件，比如产生table之类
 python manage.py migrate
-
-
 python manage.py createsuperuser               # 创建超级管理员
 python manage.py flush　　　　　　　　　　　　　　  # 清空数据库
+
+
 #此命令会询问是 yes 还是 no, 选择 yes 会把数据全部清空掉，只留下空表
 
 python manage.py dbshell            　　　　     # 数据库命令行

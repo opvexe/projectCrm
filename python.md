@@ -85,24 +85,7 @@ lambda 由三部分组成 ，lambda 关键字， 变量 ，返回值
 string = "im a  fine "
 string.split()
 ```
-### Python 装饰器 （拓展原来函数功能的一种函数）
-```
 
-```
-### Python 迭代器  （本质就是通过调用Nex()函数实现）
-```
-```
-
-### __block修饰   __block Bool  IsTrue = Yes;  Static Bool  IsTrue = Yes; 
-```
-当在block内部使用block外部定义的局部变量时,如果变量没有被__block修饰,则在block内部是readonly(只读的),
-
-不能对他修改,如果想修改,变量前必须要有__block修饰
-
-__block的作用告诉编译器,编译时在block内部不要把外部变量当做常量使用,还是要当做变量使用.
-
-如果再block中访问全局变量,就不需要__block修饰.
-```
 
 
 

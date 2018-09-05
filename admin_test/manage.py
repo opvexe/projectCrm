@@ -17,6 +17,10 @@ if __name__ == '__main__':
 
 ######### =============== 操作流程 =============== #########
 
+# 创建文件项目
+# django-admin.py startproject mysite
+# python manage.py startapp blog
+
 # python 版本3.7  端口执行命令:
 # python3 manage.py migrate
 # python3 manage.py runserver

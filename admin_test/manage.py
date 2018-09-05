@@ -46,3 +46,24 @@ if __name__ == '__main__':
 # python manage.py dumpdata appname > appname.json    # 导出数据
 # python manage.py loaddata appname.json              # 导入数据
 # exict() 退出
+
+# 数据库链接  ***重要** 【 https://blog.csdn.net/celia_csd2/article/details/70847384 】
+# 下载 MySQL(官网：https://www.mysql.com/downloads/ ) 注意--> 选择MySQL Community Server (GPL) 5.7.18，这里安装的是社区免费版
+# mysql  **** ===> 若 command not found 则 MySQL默认的安装路径/usr/local/mysql/bin/ 找一下mysql
+# vim ~/.bash_profile  在 .bash_profile 文件中加入export PATH=${PATH}:/usr/local/mysql/bin ##***  i 编辑 exc退出编辑
+# source ~/.bash_profile
+# mysql
+# mysqladmin
+# mysql -u root -p
+# ‘输入密码’  === > root1234
+
+# 修改数据库密码
+# mysqladmin -u root -p password “输入密码”
+# set password for 用户名@localhost=password('新密码')  登录MySQL
+# use mysql
+# update user set password=password('新密码') where user='root' and host='localhost';
+# flush privileges;
+
+
+
+

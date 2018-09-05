@@ -3,7 +3,7 @@ import os
 import sys
 
 if __name__ == '__main__':
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ProjectCrm.settings')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
@@ -13,3 +13,9 @@ if __name__ == '__main__':
             "forget to activate a virtual environment?"
         ) from exc
     execute_from_command_line(sys.argv)
+
+
+# pip3 install pymysql
+# pip3 install mysqlclient
+# # _init_.py 引入 import pymysql pymysql.install_as_MySQLdb()
+# # admin.py admin.site.register()

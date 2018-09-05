@@ -211,6 +211,8 @@ class UserProfile(models.Model):
 
     def __str__(self):
         return self.name
+    class Meta:
+        verbose_name_plural = "账号表"
 
 class Role(models.Model):
     '''角色表'''
@@ -230,3 +232,5 @@ class Menu(models.Model):
 
     def __str__(self):
         return self.name
+    class Meta:
+        verbose_name_plural = "菜单"

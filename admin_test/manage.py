@@ -8,11 +8,11 @@ if __name__ == '__main__':
         from django.core.management import execute_from_command_line
     except ImportError as exc:
         raise ImportError(
-            "Couldn't import Django. Are you sure it's installed and "
-            "available on your PYTHONPATH environment variable? Did you "
-            "forget to activate a virtual environment?"
-        ) from exc
-    execute_from_command_line(sys.argv)
+                          "Couldn't import Django. Are you sure it's installed and "
+                          "available on your PYTHONPATH environment variable? Did you "
+                          "forget to activate a virtual environment?"
+                          ) from exc
+execute_from_command_line(sys.argv)
 
 
 ######### =============== 操作流程 =============== #########
@@ -54,8 +54,19 @@ if __name__ == '__main__':
 # source ~/.bash_profile
 # mysql
 # mysqladmin
-# mysql -u root -p
+# mysql -u root -p   ******* mysql -h 192.168.12.200 -u root -p
 # ‘输入密码’  === > root1234
+
+# create database MysqlCRM_DB;
+# show databases;
+
+# setting.py 注意事项
+#{
+#    'NAME': 'MysqlCRM_DB',
+#    'USER': 'root',
+#    'HOST': 'localhost',
+#    'PASSWORD': 'root1234',  ///密码一致
+#}
 
 # 修改数据库密码
 # mysqladmin -u root -p password “输入密码”

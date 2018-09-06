@@ -40,13 +40,6 @@ execute_from_command_line(sys.argv)
 # admin.py from crm.models import Topic
 # admin.py admin.site.register(Topic)
 
-# 数据库数据操作
-# python3 manage.py flush　清空数据库
-# python3 manage.py dbshell 数据库命令行  yes||no
-# python manage.py dumpdata appname > appname.json    # 导出数据
-# python manage.py loaddata appname.json              # 导入数据
-# exict() 退出
-
 # 数据库链接  ***重要** 【 https://blog.csdn.net/celia_csd2/article/details/70847384 】
 # 下载 MySQL(官网：https://www.mysql.com/downloads/ ) 注意--> 选择MySQL Community Server (GPL) 5.7.18，这里安装的是社区免费版
 # mysql  **** ===> 若 command not found 则 MySQL默认的安装路径/usr/local/mysql/bin/ 找一下mysql
@@ -59,6 +52,7 @@ execute_from_command_line(sys.argv)
 
 # create database MysqlCRM_DB;
 # show databases;
+# python3 manage.py dbshell 
 
 # setting.py 注意事项
 #{
@@ -75,6 +69,16 @@ execute_from_command_line(sys.argv)
 # update user set password=password('新密码') where user='root' and host='localhost';
 # flush privileges;
 
+# 数据库数据操作
+# python3 manage.py flush　清空数据库
+# python manage.py dumpdata appname > appname.json    # 导出数据
+# python manage.py loaddata appname.json              # 导入数据
+# exict() 退出
 
+# 项目操作
+# pip3 install pymysql
+# pip3 install mysqlclient
+# import pymysql 【 pymysql.install_as_MySQLdb() 】
+# admin.py admin.site.register()
 
 

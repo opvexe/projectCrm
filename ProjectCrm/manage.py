@@ -15,7 +15,4 @@ if __name__ == '__main__':
     execute_from_command_line(sys.argv)
 
 
-# pip3 install pymysql
-# pip3 install mysqlclient
-# # _init_.py 引入 import pymysql pymysql.install_as_MySQLdb()
-# # admin.py admin.site.register()
+# 【 https://v3.bootcss.com/ 】

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2df367dd-ffa3-44e2-bb33-fd710d36da7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ajax/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ajax/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ajax/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ajax/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProjectCrm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectCrm/.idea/workspace.xml" afterDir="false" />
@@ -26,26 +27,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="837" />
-          <entry key="py" value="231" />
+          <entry key="html" value="1189" />
+          <entry key="py" value="418" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="837" />
-          <entry key="Python" value="231" />
+          <entry key="HTML" value="1189" />
+          <entry key="Python" value="418" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
+          <entry key="html" value="2" />
           <entry key="js" value="3" />
           <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
+          <entry key="HTML" value="2" />
           <entry key="JavaScript" value="3" />
           <entry key="Python" value="4" />
         </counts>
@@ -66,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ajax/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="345">
+              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
               <folding>
                 <element signature="e#628#660#0" expanded="true" />
               </folding>
@@ -83,23 +84,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="404">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
-                <marker date="1536311697145" expanded="true" signature="95:96" ph="..." />
-                <marker date="1536311697145" expanded="true" signature="95:101" ph="..." />
-                <marker date="1536311697145" expanded="true" signature="165:166" ph="..." />
-                <marker date="1536311697145" expanded="true" signature="165:235" ph="..." />
+                <marker date="1536315645617" expanded="true" signature="95:96" ph="..." />
+                <marker date="1536315645617" expanded="true" signature="95:101" ph="..." />
+                <marker date="1536315645617" expanded="true" signature="165:166" ph="..." />
+                <marker date="1536315645617" expanded="true" signature="165:235" ph="..." />
+                <marker date="1536315645617" expanded="true" signature="512:513" ph="..." />
+                <marker date="1536315645617" expanded="true" signature="512:518" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="48" column="6" lean-forward="true" selection-start-line="48" selection-start-column="6" selection-end-line="53" selection-end-column="9" />
+              <folding>
+                <element signature="e#609#992#0#HTML" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
+        <entry file="file://$PROJECT_DIR$/templates/register.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="269">
-              <caret line="36" column="102" lean-forward="true" selection-start-line="36" selection-start-column="102" selection-end-line="36" selection-end-column="102" />
+              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+              <folding>
+                <element signature="e#522#905#0#HTML" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,10 +152,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/manage.py" />
-        <option value="$PROJECT_DIR$/Ajax/urls.py" />
-        <option value="$PROJECT_DIR$/app/views.py" />
         <option value="$PROJECT_DIR$/Ajax/settings.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/Ajax/urls.py" />
+        <option value="$PROJECT_DIR$/app/views.py" />
+        <option value="$PROJECT_DIR$/templates/register.html" />
       </list>
     </option>
   </component>
@@ -148,8 +167,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="175" />
-    <option name="y" value="23" />
+    <option name="x" value="197" />
+    <option name="y" value="64" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -248,10 +267,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="175" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="197" y="64" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -265,7 +284,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3299363" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -295,34 +314,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ajax/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="e#628#660#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <marker date="1536311697145" expanded="true" signature="95:96" ph="..." />
-            <marker date="1536311697145" expanded="true" signature="95:101" ph="..." />
-            <marker date="1536311697145" expanded="true" signature="165:166" ph="..." />
-            <marker date="1536311697145" expanded="true" signature="165:235" ph="..." />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ajax/settings.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -331,10 +327,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <folding>
+            <element signature="e#628#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="48" column="6" lean-forward="true" selection-start-line="48" selection-start-column="6" selection-end-line="53" selection-end-column="9" />
+          <folding>
+            <element signature="e#609#992#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <marker date="1536315645617" expanded="true" signature="95:96" ph="..." />
+            <marker date="1536315645617" expanded="true" signature="95:101" ph="..." />
+            <marker date="1536315645617" expanded="true" signature="165:166" ph="..." />
+            <marker date="1536315645617" expanded="true" signature="165:235" ph="..." />
+            <marker date="1536315645617" expanded="true" signature="512:513" ph="..." />
+            <marker date="1536315645617" expanded="true" signature="512:518" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
-          <caret line="36" column="102" lean-forward="true" selection-start-line="36" selection-start-column="102" selection-end-line="36" selection-end-column="102" />
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+          <folding>
+            <element signature="e#522#905#0#HTML" />
+          </folding>
         </state>
       </provider>
     </entry>

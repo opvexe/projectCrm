@@ -16,3 +16,16 @@ def ajax_recieve(requst):
         print('POST Request')
 
     return HttpResponse('hello')
+
+
+
+def ajax_register(requst):
+
+    if requst.method == 'POST':
+        username = requst.POST.get('username')
+        if username == 'alex':
+            return HttpResponse('ajax_register 200 ok')
+
+        return HttpResponse('ajax_register error')
+
+    return render(requst,'register.html')

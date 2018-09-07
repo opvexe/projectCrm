@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/',views.index),
     path('ajax_recieve/',views.ajax_recieve),
+    path('ajax_register/',views.ajax_register),
 ]

@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<form>
+<form method="post">
     <p>用户名<input type="text" name="username" onblur="fun1(this)">
     <span id="error"> </span>
     </p>
@@ -25,7 +25,6 @@
 
         var username = self.value
 
-        alert(username)
         var xmlhttp = createXMLHttpRequest()
 
         xmlhttp.open('POST','/ajax_register/',true)
@@ -35,6 +34,7 @@
         xmlhttp.send('username='+username)
 
         xmlhttp.onreadystatechange()=function () {
+            
             if (xmlhttp.readyState == 4&& xmlhttp.status == 200) {}
 
             var s = xmlhttp.responseText

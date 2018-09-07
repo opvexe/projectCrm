@@ -11,4 +11,8 @@ def index(requst):
 
 def ajax_recieve(requst):
 
+
+    if requst.method == 'POST':
+        print('POST Request')
+
     return HttpResponse('hello')

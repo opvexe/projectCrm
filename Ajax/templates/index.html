@@ -10,7 +10,7 @@
 
 <script>
     
-    function func1() {
+    function func1() {   ///GET 请求
         var xmlhttp = createXMLHttpRequest() /// 创建ajax对象
 
         xmlhttp.open('GET','/ajax_recieve/',true) ///链接url
@@ -24,6 +24,35 @@
             }
         }
     }
+
+    function func2() {   ///POST 请求
+        var xmlhttp = createXMLHttpRequest() /// 创建ajax对象
+
+        xmlhttp.open('POST','/ajax_recieve/',true) ///链接url
+
+        xmlhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded') ///设置请求头 POST表单crs
+
+        {#{#}
+        {#    提交表单四种格式：#}
+        {#    application/x-www-form-urlencoded   案例： title=test&sub%5B%5D=1&sub%5B%5D=2&sub%5B%5D=3#}
+        {#    multipart/form-data  案例：图片上传#}
+        {#    application/json   案例：{"title":"test","sub":[1,2,3]}#}
+        {#    text/xml     案例：XML 编码#}
+        {#}#}
+
+        xmlhttp.send('name = alex') //发送数据
+
+        xmlhttp.onreadystatechange(){
+            if (xmlhttp.readyState == 4 &&xmlhttp.status == 200) { //状态码 200
+                var data = xmlhttp.responseText;
+                alert(data)
+            }
+        }
+    }
+
+
+
+
 
     function createXMLHttpRequest() {
         var xmlHttp;

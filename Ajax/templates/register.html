@@ -21,11 +21,12 @@
 
 <script>
     
-    function fun1() {
+    function fun1(self) {
 
-        var username = this.getAttribute('value');
+        var username = self.value
 
-        var xmlhttp = createXMLHttpRequest();
+        alert(username)
+        var xmlhttp = createXMLHttpRequest()
 
         xmlhttp.open('POST','/ajax_register/',true)
 
@@ -36,16 +37,19 @@
         xmlhttp.onreadystatechange()=function () {
             if (xmlhttp.readyState == 4&& xmlhttp.status == 200) {}
 
-            var = xmlhttp.responseText;
-            
+            var s = xmlhttp.responseText
 
+            if (s == '1'){
+                alert('ok')
+                document.getElementById('error').innerHTML='用户名已经注册了！'
+            }
         }
 
     }
      function createXMLHttpRequest() {
         var xmlHttp;
         try {
-            xmlHttp = new XMLHttpRequest();
+            xmlHttp = new XMLHttpRequest()
         }catch (e) {
             try {
                 xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");

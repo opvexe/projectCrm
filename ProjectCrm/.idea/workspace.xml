@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbd5b032-eef2-4784-b35a-9e87f0c9afe3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Ajax/templates/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Ajax/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ajax/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ajax/Ajax/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Ajax/Ajax/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ajax/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Ajax/app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ajax/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Ajax/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ajax/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Ajax/templates/register.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

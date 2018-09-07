@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="func1">  Ajax提交 </button>
+</body>
+
+<script>
+    
+    function func1() {
+        var xmlhttp = createXMLHttpRequest() /// 创建ajax对象
+
+        xmlhttp.open('GET','/ajax_recieve/',true) ///链接url
+
+        xmlhttp.send(null) //发送数据
+
+        xmlhttp.onreadystatechange(){
+            if (xmlhttp.readyState == 4 &&xmlhttp.status == 200) { //状态码 200
+                var data = xmlhttp.responseText;
+                alert(data)
+            }
+        }
+    }
+
+    function createXMLHttpRequest() {
+        var xmlHttp;
+        try {
+            xmlHttp = new XMLHttpRequest();
+        }catch (e) {
+            try {
+                xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+            }catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                }catch (e) {}
+            }
+        }
+        return xmlHttp;
+    }
+
+</script>
+
+
+</html>

@@ -31,3 +31,9 @@ def ajax_register(requst):
         return HttpResponse('ajax_register error')
 
     return render(requst,'register.html')
+
+
+
+def jquery_test(requst):
+
+    return HttpResponse('ok')

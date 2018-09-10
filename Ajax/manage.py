@@ -24,3 +24,7 @@ if __name__ == '__main__':
 # Step4 : var context = xmlHttp.responseText #监听函数监听responseText属性：
 
 # JSON 与 JSONP
+
+
+
+# 基于jquery 的ajax 实现 最底层的封装 $.ajax()
